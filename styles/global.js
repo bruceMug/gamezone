@@ -10,6 +10,7 @@ export const globalStyles = StyleSheet.create({
         fontSize: 18,
         color: '#333',
         color: '#72bcd4',
+        padding: 10,
     },
     paragraph: {
         marginVertical: 8,
