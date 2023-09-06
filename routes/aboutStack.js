@@ -11,7 +11,7 @@ const defaultNavigationOptions = {
 
 export default function AboutStack() {
   return (
-    // <NavigationContainer>
+    <NavigationContainer>
       <Stack.Navigator screenOptions={defaultNavigationOptions}>
 
         <Stack.Screen
@@ -22,7 +22,7 @@ export default function AboutStack() {
           }}
         />
       </Stack.Navigator>
-    // </NavigationContainer>
+    </NavigationContainer>
   );
 }
 
