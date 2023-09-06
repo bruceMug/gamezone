@@ -1,5 +1,5 @@
 import { createStackNavigator } from "@react-navigation/stack";
-// import { NavigationContainer } from "@react-navigation/native";
+import { NavigationContainer } from "@react-navigation/native";
 import Home from "../screens/home";
 import ReviewDetails from "../screens/reviewDetails";
 
@@ -12,7 +12,7 @@ const defaultNavigationOptions = {
 
 export default function HomeStack() {
   return (
-    // <NavigationContainer>
+    <NavigationContainer>
       <Stack.Navigator screenOptions={defaultNavigationOptions}>
 
         <Stack.Screen
@@ -33,6 +33,6 @@ export default function HomeStack() {
           }}
         />
       </Stack.Navigator>
-    // </NavigationContainer>
+    </NavigationContainer>
   );
 }
